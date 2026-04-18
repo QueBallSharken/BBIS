@@ -1,0 +1,159 @@
+BBIS
+
+Boundary-to-Boundary Invariant Survival
+
+Author: Steven Kyle Hensley
+Alias: Stevil
+GitHub: QueBallSharken
+
+What BBIS is
+
+Boundary-to-Boundary Invariant Survival (BBIS) is the requirement that the same governing invariant remain live, binding, and refusal-capable across every mutation-capable boundary in the claimed path until the true irreversible primitive for the claimed scope.
+
+BBIS is:
+
+- primarily a continuity requirement
+- secondarily an evaluation criterion
+
+BBIS is not:
+
+- a complete concrete architecture by itself
+- a synonym for authorization correctness
+- a synonym for receipt correctness
+- a synonym for attestation validity
+- a synonym for execution integrity in the broad sense
+
+Why BBIS exists
+
+A governed transition is not valid merely because it was:
+
+- approved earlier
+- executed faithfully
+- recorded completely
+- logged correctly
+- supported by a receipt
+
+It remains valid only if the same governing invariant can still prevent or invalidate mutation at each required boundary until the true irreversible primitive is reached.
+
+BBIS exists to name and test that stronger continuity condition.
+
+Core definition
+
+A system does not satisfy BBIS merely because it can prove that:
+
+- a decision existed
+- a policy was evaluated
+- a token was presented
+- a receipt verified
+- an approval artifact was produced
+
+The BBIS question is narrower and stricter:
+
+«Did the same governing invariant actually survive the full mutation path to the boundary that made the mutation real?»
+
+Core terms
+
+Governing invariant
+
+The authoritative condition that constrains permissible operations and state transitions.
+
+Mutation-capable boundary
+
+Any boundary where state, authority, execution scope, operational meaning, or finality can be changed, widened, translated, delegated, retried, queued, persisted, or finalized in a way relevant to the governing invariant.
+
+True irreversible primitive
+
+The actual boundary, mechanism, or primitive whose successful completion makes the relevant mutation operationally binding or irreversible for the claimed scope.
+
+Live
+
+The invariant is actively involved in real decision or control flow, not merely documented, logged, or checked earlier.
+
+Binding
+
+The invariant actually constrains what can occur. It is not advisory.
+
+Refusal-capable
+
+At the relevant boundary, the system can still technically prevent the violating mutation from occurring.
+
+What BBIS requires
+
+For the claimed scope, BBIS asks whether the system preserved:
+
+- invariant continuity
+- authority continuity
+- identity continuity where claim-relevant
+- live refusal continuity
+- timely refusal continuity
+- mutation-path completeness for the claimed scope
+- evidence sufficiency for independent replay and review
+
+What does not satisfy BBIS
+
+BBIS is not satisfied by:
+
+- earlier approval alone
+- faithful later execution alone
+- receipts alone
+- audit logs alone
+- witnesses without refusal power
+- advisory systems without mechanically effective refusal
+- sidecars, monitors, or TEEs that cannot actually prevent mutation
+- coverage of one path while another uncontrolled path can still mutate reality
+- evidence of observation without evidence of live refusal continuity
+
+Classification
+
+At minimum, BBIS claims should be classified conservatively as:
+
+Strong
+
+The same governing invariant remained live and refusal-capable across all required mutation-capable boundaries until the true irreversible primitive for the claimed scope, with sufficient evidence for independent replay.
+
+Partial
+
+Some continuity requirements survived, but not all. The claim must be explicitly bounded to the surviving scope.
+
+Fail
+
+The governing basis did not remain live and refusal-capable across the required boundaries, or the evidence is insufficient to support the stronger claim.
+
+No stronger class may be inferred from a weaker one.
+
+Relationship to architecture
+
+BBIS is the requirement.
+
+Architectures are candidate realizations.
+
+BBIS is not:
+
+- DTPE
+- IAL
+- SPECTRE
+- GDP
+- SPECTRE-FST
+- Model 9
+- Sentinel
+
+Those may be architectures, subsystems, evaluators, or bounded answers that attempt to satisfy BBIS for some scope.
+
+They must not replace the requirement itself.
+
+Public discipline
+
+Any serious public BBIS claim should state:
+
+- scope
+- identified mutation-capable boundaries
+- identified true irreversible primitive
+- claimed continuity strength
+- evidence standard
+- known limitations
+
+Final rule
+
+The same governing invariant must remain live, binding, and refusal-capable across every mutation-capable boundary in the claimed path until the true irreversible primitive for the claimed scope.
+
+If that does not hold, the stronger continuity claim must not survive.
