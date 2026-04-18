@@ -1,3 +1,7 @@
+Author: Steven Kyle Hensley
+Alias: Stevil
+GitHub: QueBallSharken
+
 BBIS CANONICAL DEFINITION
 
 Boundary-to-Boundary Invariant Survival
