@@ -1,5 +1,9 @@
 BBIS THREE-BOUNDARY REFINEMENT
 
+Author: Steven Kyle Hensley
+Alias: Stevil
+GitHub: QueBallSharken
+
 Boundary-to-Boundary Invariant Survival Operational Refinement
 
 Author: Steven Kyle Hensley
